@@ -53,6 +53,7 @@ public class HashMap {
         else{
             
             //keep trying until we find a location that is empty 
+            //TODO add wrap around so we dont get out of bounds 
             while(hashMap.get(hash)!= null){
                 hash++;
             }
